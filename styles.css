@@ -1,0 +1,33 @@
+body {
+    max-width: 100%;
+    background-color: #C6C6C6;
+    padding: 5em;
+}
+
+#root {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2em;
+    border-radius: 2em;
+    background-color: #C6C6C6;
+}
+
+div {
+    width: 100%;
+    background-color: #F7F7F7;
+    border-radius: 2em;
+}
+
+h4 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    font-style: oblique;
+}
+
+img {
+    width: 15em;
+    transform: translateX(20%);
+}

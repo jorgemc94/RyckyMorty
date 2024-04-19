@@ -16,4 +16,8 @@ class User {
     getspecies() {
         return this.species;
     }
+
+    getInfo() {
+        return `${this.name} ${this.image} ${this.species}`
+    }
 }
