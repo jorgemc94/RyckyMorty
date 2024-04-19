@@ -1,7 +1,11 @@
 body {
     max-width: 100%;
     background-color: #C6C6C6;
-    padding: 5em;
+    padding: 2em 5em;
+}
+
+#title {
+    text-align: center;
 }
 
 #root {
@@ -11,6 +15,7 @@ body {
     border-radius: 2em;
     background-color: #C6C6C6;
 }
+
 
 div {
     width: 100%;

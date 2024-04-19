@@ -2,10 +2,15 @@
 https://rickandmortyapi.com/api/character
 coger los datos de esta URL y mostrarlos como un listado de personajes con su foto, su nombre y su especie
  */
+const titleContent = document.getElementById('title')
 const root = document.getElementById('root');
 let url = 'https://rickandmortyapi.com/api/character';
 
 let object = [];
+
+const rickymorty = document.createElement('h1');
+rickymorty.innerText = 'Rick y Morty';
+titleContent.appendChild(rickymorty);
 
 const writeTextInHtml = (content) =>{
    const target = document.createElement('div');
