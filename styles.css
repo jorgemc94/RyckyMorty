@@ -2,6 +2,7 @@ body {
     max-width: 100%;
     background-color: #C6C6C6;
     padding: 1em 5em;
+    font-family: Didot
 }
 
 #title {
@@ -30,6 +31,7 @@ h4 {
 p {
     text-align: center;
     font-style: oblique;
+    font-family: "Century Gothic"
 }
 
 img {
